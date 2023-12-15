@@ -1,0 +1,46 @@
+.body1{
+    display: flex;
+    height: 100vh;
+    background: rgba(22, 27, 87, 0.808);
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 500px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    .boximg{
+        position: relative;
+        bottom: 100px;
+    }
+}
+
+.OwnerAnn{
+    position: relative;
+    bottom: 230px;
+    right: 320px;
+    font-variant: initial;
+    font-family: monospace;
+}
+
+.btn1{
+    display: flex;
+    position: relative;
+    right: 510px;
+    top: 100px;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    background: gray;
+}
